@@ -8,7 +8,7 @@ SERVER_PORT=443
 AUTH_PASSWORD="20250930"
 CERT_FILE="cert.pem"
 KEY_FILE="key.pem"
-SNI="www.bing.com"
+SNI="myhytwo.onrender.com"
 ALPN="h3"
 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
