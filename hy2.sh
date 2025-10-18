@@ -38,7 +38,7 @@ BIN_PATH="./${BIN_NAME}"
 
 # 下载Hysteria程序
 if [ ! -f "$BIN_PATH" ]; then
-    URL="https://github.com/apernet/hysteria/releases/download/app/${HYSTERIA_VERSION}/${BIN_NAME}"
+    URL="https://github.com/apernet/hysteria/releases/download/${HYSTERIA_VERSION}/${BIN_NAME}"
     echo "⏳ 下载程序：$URL"
     curl -L --retry 3 --connect-timeout 30 -o "$BIN_PATH" "$URL"
     chmod +x "$BIN_PATH"
