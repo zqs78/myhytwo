@@ -45,6 +45,7 @@ if [ ! -f "$BIN_PATH" ]; then
     echo "✅ 程序下载完成"
 else
     echo "✅ 程序已存在，跳过下载"
+    chmod +x "$BIN_PATH"  # ← 新增这一行！
 fi
 
 # 生成证书（如果没有）
