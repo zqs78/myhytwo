@@ -4,7 +4,7 @@ set -x
 
 # 配置信息（可修改）
 HYSTERIA_VERSION="v2.6.3"
-SERVER_PORT=443
+SERVER_PORT=${PORT:-443}
 AUTH_PASSWORD="20250930"
 CERT_FILE="cert.pem"
 KEY_FILE="key.pem"
